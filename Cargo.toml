@@ -1,0 +1,12 @@
+[package]
+name = "tsukuda_fib_rs"
+version = "0.1.0"
+authors = ["tsukudamayo<tsukudamayo@gmail.com>"]
+edition = "2018"
+[dependencies]
+[dependencies.pyo3]
+version = "0.13.2"
+features = ["extension-module"]
+[lib]
+name = "tsukuda_fib_rs"
+crate-type = ["cdylib"]
